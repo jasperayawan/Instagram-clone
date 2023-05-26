@@ -5,7 +5,7 @@ import Kate from '../assets/kate.png'
 const UsrProfileWFooter = () => {
     return(
         <div className='flex flex-col gap-5 px-5'>
-            <div className="flex justify-between items-center">
+            <div className="hidden justify-between items-center md:hidden lg:flex ">
                 <div className='flex flex-row justify-start items-center gap-4'>
                     <div className="w-[50px] h-50px rounded-full overflow-hidden relative">
                         <img src={myProfile} alt="my profile" />
@@ -23,7 +23,7 @@ const UsrProfileWFooter = () => {
 
             {/* ----------------users -----------------*/}
 
-            <div className='flex flex-col gap-2'>
+            <div className='hidden flex-col gap-2 md:hidden lg:flex'>
                 <div className="flex justify-between items-center">
                     <span className='text-gray-500 font-semibold text-[14px]'>Suggested for you</span>
                     <div>
@@ -112,7 +112,7 @@ const UsrProfileWFooter = () => {
             {/* ----------------footer -----------------*/}
 
             <div className='flex flex-col gap-3'>
-                <ul className='flex flex-wrap gap-1'>
+                <ul className='hidden md:flex md:justify-center md:items-center md:gap-2 lg:flex lg:flex-wrap lg:gap-1'>
                     <li>
                         <Link className='text-gray-400 text-[12px] font-semibold'>About</Link>
                     </li>
@@ -145,8 +145,8 @@ const UsrProfileWFooter = () => {
                     </li>
                 </ul>
 
-                <div>
-                    <span className='text-gray-400 text-[12px] font-semibold'>© 2023 INSTAGRAM FROM META</span>
+                <div className='hidden md:flex md:justify-center md:items-center '>
+                    <span className='md:text-center lg:text-start text-gray-400 text-[12px] font-semibold'>© 2023 INSTAGRAM FROM META</span>
                 </div>
             </div>
         </div>
