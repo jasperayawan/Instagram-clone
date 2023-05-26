@@ -5,9 +5,9 @@ import Lizaa from '../assets/lizaa.jpg'
 
 const Post = () => {
     return(
-        <div className=''>
-            <div className="flex flex-col w-full md:max-w-[624px] overflow-hidden md:me-auto px-[5rem] my-[3rem]">
-                <div className='flex justify-between items-center w-full'>
+        <div className='flex justify-center items-center flex-col'>
+            <div className="flex flex-col  w-full md:max-w-[624px] overflow-hidden md:mx-auto lg:me-auto px-2 md:px-[5rem] my-[3rem]">
+                <div className=' flex justify-between items-center w-full'>
                     <div className="user-profile flex items-center justify-center gap-3">
                         <div className="flex justify-center items-center image w-[40px] h-[40px] overflow-hidden relative rounded-full bg-red-500 ">
                             <img src={Lizaa} alt="liza soberano" className='object-fit w-full h-full'/>
@@ -71,7 +71,7 @@ const Post = () => {
 
             </div>
 
-            <div className="flex flex-col w-full md:max-w-[624px] overflow-hidden md:me-auto px-[5rem] my-[3rem]">
+            <div className="flex flex-col  w-full md:max-w-[624px] overflow-hidden md:mx-auto lg:me-auto px-2 md:px-[5rem] my-[3rem]">
                 <div className='flex justify-between items-center w-full'>
                     <div className="user-profile flex items-center justify-center gap-3">
                         <div className="flex justify-center items-center image w-[40px] h-[40px] overflow-hidden relative rounded-full bg-red-500 ">
@@ -134,7 +134,7 @@ const Post = () => {
 
             </div>
 
-            <div className="flex flex-col w-full md:max-w-[624px] overflow-hidden md:me-auto px-[5rem] my-[3rem]">
+            <div className="flex flex-col  w-full md:max-w-[624px] overflow-hidden md:mx-auto lg:me-auto px-2 md:px-[5rem] my-[3rem]">
                 <div className='flex justify-between items-center w-full'>
                     <div className="user-profile flex items-center justify-center gap-3">
                         <div className="flex justify-center items-center image w-[40px] h-[40px] overflow-hidden relative rounded-full bg-red-500 ">
@@ -197,7 +197,7 @@ const Post = () => {
 
             </div>
 
-            <div className="flex flex-col w-full md:max-w-[624px] overflow-hidden md:me-auto px-[5rem] my-[3rem]">
+            <div className="flex flex-col  w-full md:max-w-[624px] overflow-hidden md:mx-auto lg:me-auto px-2 md:px-[5rem] my-[3rem]">
                 <div className='flex justify-between items-center w-full'>
                     <div className="user-profile flex items-center justify-center gap-3">
                         <div className="flex justify-center items-center image w-[40px] h-[40px] overflow-hidden relative rounded-full bg-red-500 ">
